@@ -1,0 +1,100 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+ header{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ header ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+ header ul li a{
+    color: #111;
+    text-decoration: none;
+    
+}
+
+center{
+    text-align: center;
+}
+  .main{
+    float: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 10%;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center ;
+}
+.main .logo-subtext{
+    position: absolute;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    padding-left: 15%;
+    margin-top: -3.5%;
+}
+ .main .searchBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    float: center;
+}
+ .main .searchBox .Search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+ .main .searchBox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+
+}
+
+ .main .buttons {
+     float: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 100px;
+    box-sizing: 25%;
+
+}
+ .main .buttons .submitbtn{
+    margin-left: 5%;
+}
+ .main  .buttons .submitbtn:hover{
+    border: 1px solid #ccc;
+}
